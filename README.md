@@ -31,8 +31,8 @@ If it replies with PONG, connected successfully!
 2. **List:**
    commands: **LPUSH, LRANGE, RPUSH, LLEN, LPOP, RPOP, LSET, LINSERT, etc.**
 
-3.**Set:**
-commands: **SADD, SISMEMBER, SMEMBERS, SCARD, SMOVE, SREM**
+3. **Set:**
+   commands: **SADD, SISMEMBER, SMEMBERS, SCARD, SMOVE, SREM**
 
 4. **Sorted Sort:**
    commands: **ZADD, ZRANK, ZRANGE, ZINCRBY**
@@ -49,3 +49,9 @@ commands: **MULTI, EXEC, DISCARD, WATCH**
 commands: **PUBLISH, SUBSCRIBE**
 
 and so on.
+
+## **redis-py:**
+
+**We will be using redis-py, to install it use following command**
+
+$ pip install redis
